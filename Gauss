@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include <stdio.h>
+
 double gaussElimination(int m, int n, double a[m][n]){
     int i,j,k;
     for(i=0;i<m-1;i++){
@@ -11,10 +12,10 @@ double gaussElimination(int m, int n, double a[m][n]){
     }
              
 }
-/*******
-Function that reads the elements of a matrix row-wise
+/***
+This function reads the elements of a matrix row by row.
 Parameters: rows(m),columns(n),matrix[m][n] 
-*******/
+***/
 void readMatrix(int m, int n, double matrix[m][n]){
     int i,j;
     for(i=0;i<m;i++){
@@ -23,10 +24,10 @@ void readMatrix(int m, int n, double matrix[m][n]){
         }
     } 
 }
-/*******
-Function that prints the elements of a matrix row-wise
+/***
+This function prints the elements of a matrix row by row.
 Parameters: rows(m),columns(n),matrix[m][n] 
-*******/
+***/
 void printMatrix(int m, int n, double matrix[m][n]){
     int i,j;
     for(i=0;i<m;i++){
@@ -36,10 +37,10 @@ void printMatrix(int m, int n, double matrix[m][n]){
         printf("\n");
     } 
 }
-/*******
-Function that copies the elements of a matrix to another matrix
+/***
+Copying the elements of a matrix to another matrix is a function.
 Parameters: rows(m),columns(n),matrix1[m][n] , matrix2[m][n]
-*******/
+***/
 void copyMatrix(int m, int n, double matrix1[m][n], double matrix2[m][n]){
     int i,j;
     for(i=0;i<m;i++){
