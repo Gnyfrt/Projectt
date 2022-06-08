@@ -1,23 +1,3 @@
-/*
-KOD     ANLAMI
-
-\b      Geriye dogru karakter silme
-\f      Sayfa atlama
-\n      Satir araligi ve satir basi
-\r      Satir basi
-\t      Yatay tab degeri
-\"      Çift tirnak
-\'      Tek tirnak
-\0      Bos deger
-\\      Ters kesme isareti
-\v      Dikey tab degeri
-\a      Zil sesi
-\N      8'li tabanda sabit
-\xN     16'li tabanda sabit
-
-*/
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <dirent.h>
